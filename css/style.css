@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+main{
+    width: 70%;
+    padding: 50px;
+    margin:auto ;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    position: relative;
+       
+    }
+p{
+    position: absolute;
+    right: 20px;
+    color: white;
+    top: 20px;
+}
+
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid black;
+    transition: all 0.5s ease;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+.photo1{
+    background-image: url('../img/f9c9ba2799808a7536f6ff1c13054e78.jpg');
+}
+.photo2{
+    background-image: url('../img/fit_795_547_false_crop_4276_2405_685_0_q90_1419761_3243f0152ee092770be7f78b6.jpeg');
+    }
+.photo3{
+        background-image: url('../img/duejn-dzhonson_1515691312631609548.jpg');
+        }
+.photo4{
+            background-image: url('../img/imgonline-com-ua-resize-oeq8u3qmvyei.jpg');
+            }
+.photo5{
+                background-image: url('../img/СКАЛА\ \(6\).jpg');
+                }
+.photo6{
+                    background-image: url('../img/СКАЛА\ \(5\).jpg');
+                    }  
+.photo7{
+                        background-image: url('../img/СКАЛА\ \(4\).jpg');
+                        
+}
+.photo8{
+    background-image: url('../img/752116_full.jpeg');
+}
+.photo9{
+    background-image: url('../img/756545219815618.jpg');
+}
+.photo10{
+    background-image: url('../img/6.jpg');
+}
+.photo11{
+    background-image: url('../img/511505896555.jpg');
+}
+.photo12{
+    background-image: url('../img/1584988175_therock_84892869_140878077394284_2085112856474113315_n.jpg');
+}
+    .photo13{
+        background-image: url('../img/7cbf6738d51db6a7330c134e88e34e05_ce_1080x719x0x4_cropped_666x444.jpg');
+}
+.photo14{
+    background-image: url('../img/31dabde6e442609b0d9789f951c8e0ca_ce_2344x1562x78x1.jpg');
+}
+.photo15{
+    background-image: url('../img/3814ced6caee070a1b72b89dc73336ceda29e8ac.jpg');
+}
+.photo16{
+    background-image: url('../img/3123a6f0450222511d0e3710323a4fab_ce_1080x719x0x0_cropped_666x444.jpg');
+}
+.photo:hover{
+    transform: scale(1.20) rotate(0.1deg);
+    filter: grayscale(10);
+    cursor: pointer;
+}
+.photo:active{
+transform: scale(2.1);
+}
